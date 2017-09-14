@@ -1,0 +1,21 @@
+<div class="header padding-1">
+    <a href="" ng-click="home()"> <div class="header-logo left"> </div> </a>
+    <div class="nav-menu">
+        <a href=""> <div class="docs left">  DOCS   </div> </a>
+        <a href=""> <div class="help left"> HELP </div> </a>
+        <div class="left nav-buttons" ng-if="!isLoggedIn">
+                <button class="button-1" ng-click="login()"> Log In </button>
+                <button class="button-2" ng-click="signup()"> Sign Up </button>
+        </div>
+        <div class="right credits" ng-if="isLoggedIn">
+            <div class="balance left">
+                <p> Balance </p>
+                <p> {{balance}} </p>
+            </div>
+            <div class="account">
+                <p> {{account}} </p>
+                <p> {{username}} </p>
+            </div>
+        </div>
+    </div>
+</div> <!-- End of Header -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="11px" viewBox="0 0 14 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_checksuccess</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Onboarding---Sign-Up-Password-Check" transform="translate(-335.000000, -437.000000)" fill="#7ED321">
+            <g id="Group-17" transform="translate(194.000000, 210.000000)">
+                <g id="Group-15" transform="translate(0.000000, 212.000000)">
+                    <g id="Group-14">
+                        <path d="M145.133413,25.7216147 L141.256788,21.510297 C140.914761,21.1388346 140.914372,20.5361601 141.255815,20.164063 C141.597259,19.7921775 142.151423,19.7917545 142.493255,20.1632169 L145.751744,23.7028984 L153.506745,15.2785707 C153.848577,14.9066852 154.402547,14.9073198 154.744185,15.2794168 C155.085628,15.6515138 155.085239,16.2541884 154.743212,16.6256508 L146.370075,25.7216147 C146.199159,25.9073459 145.975354,26 145.751744,26 C145.528134,26 145.304329,25.9073459 145.133413,25.7216147 Z" id="icon_checksuccess"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

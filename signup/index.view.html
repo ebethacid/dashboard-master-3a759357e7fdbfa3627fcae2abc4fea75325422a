@@ -1,0 +1,96 @@
+<div class="container" id="signup-page">
+    <div class="upperfold">
+        <div top-menu
+            loc-data="locData" 
+            template-url="top-menu.html"
+        ></div><!-- End of Header -->
+
+        <div class="form-bg">
+            <div class="form-holder">
+                <!-- Onboarding signup -->
+                <div class="onboarding-signup">
+                    <p class="text1"> You're almost done! </p>
+                    <p class="text2"> We just need a bit more information before setting up your account. </p>
+                    <form novalidate>
+                        <p ng-class="result.style"><span ng-repeat="msg in result.message track by $index">{{msg}}<br/><span></p>
+                        <label> Email Address </label>
+                        <input 
+                            ng-disabled="result.style === 'success-msg'"
+                            class="email"
+                            ng-class="result.email.style"
+                            type="text"
+                            ng-model="credentials.email"
+                            >
+                        </input>
+                        <p class="field-text" ng-class="result.email.class">{{result.email.message}}</p>
+
+                        <div class="fn-holder">
+                            <label> First Name </label>
+                            <input 
+                                ng-disabled="result.style === 'success-msg'" 
+                                type="text" ng-class="result.firstname.style" 
+                                ng-model="credentials.firstname"
+                                >
+                            </input>
+                            <p class="field-text" ng-class="result.firstname.class">{{result.firstname.message}}</p>
+                        </div>
+                        <div class="ln-holder">
+                            <label> Last Name </label>
+                            <input
+                                ng-disabled="result.style === 'success-msg'"
+                                type="text" ng-class="result.lastname.style"
+                                class="input-right"
+                                ng-model="credentials.lastname"
+                                >
+                            </input>
+                            <p class="field-text" ng-class="result.lastname.class">{{result.lastname.message}}</p>
+                        </div>
+                        <div class="clear"></div>
+                        <div>
+                            <label> Password </label>
+                            <input 
+                                ng-disabled="result.style === 'success-msg'"
+                                type="{{password.type}}"
+                                ng-class="result.password.style"
+                                ng-model="credentials.password"
+                                ng-blur="watchField('password')"
+                                >
+                            </input>
+                            <div class="pw-toggle" ng-click="toggle('password')">{{password.state}}</div>
+                            <p class="field-text" ng-class="result.password.class">{{result.password.message || password.message}}</p>
+                            <div class="pwmeter" ng-class="password.meter">{{password.meter}}</div>
+                        </div>
+
+                        <button 
+                            ng-disabled="result.style === 'success-msg' || filled.length != fields.length"
+                            ng-class="(result.style === 'success-msg' || filled.length != fields.length ? 'disable-button' : '')" class="button-1"
+                            type="submit"
+                            ng-click="signUpUser()"> Create free account 
+                        </button>
+                    </form>
+                    <p class="link"> Already have an account? <a href="" ng-click="signInUser()"> Login. </a> </p>
+                </div>
+
+                <!-- Onboarding expired link -->
+                <div class="onboarding-expiredlink">
+                    <p class="text1"> Oops! </p>
+                    <p class="text2"> Registration activation failed </p>
+                    <div class="error-msg"> Your account was not activated because the activation period has expired. Input your email below and we will resend the confirmation email with the activation link.
+                        <p> Please click the activation link <a href=""> <b> within 24 hours.</b> </a> </p>	</div>
+                    <form>
+                        <input type="email"> </input>
+                        <button class="button-1" type="submit"> Resend confirmation email </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div> <!-- End of upperfold -->
+
+    <div class="clear"> </div>
+
+    <div footer 
+        template-url="footer.html">
+    </div>
+
+</div>

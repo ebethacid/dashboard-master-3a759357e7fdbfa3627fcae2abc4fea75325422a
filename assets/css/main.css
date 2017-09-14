@@ -1,0 +1,2098 @@
+/* line 1, ../sass/_color.scss */
+.gray-1, .error-msg p a, .form-bg .form-holder p.text1, .form-bg .form-holder p.text2, .form-bg .form-holder p.link, .form-bg .form-holder p.link a, #dashboard-page .content-holder .main-window .gs-intro .account-text p:nth-child(2), #dashboard-page .content-holder .main-window .gs-intro .account-text p:nth-child(3) {
+  color: #4A4A4A;
+}
+
+/* line 5, ../sass/_color.scss */
+.orange-1, .button-1, #index-page .upperfold .text-holder form.submit-email button {
+  background-color: #FFAC33;
+}
+
+/* line 9, ../sass/_color.scss */
+.purple-1, #dashboard-page .content-holder .main-window .gs-intro .account-text p:first-child {
+  color: #615478;
+}
+
+/* line 1, ../sass/_color.scss */
+.gray-1, .error-msg p a, .form-bg .form-holder p.text1, .form-bg .form-holder p.text2, .form-bg .form-holder p.link, .form-bg .form-holder p.link a, #dashboard-page .content-holder .main-window .gs-intro .account-text p:nth-child(2), #dashboard-page .content-holder .main-window .gs-intro .account-text p:nth-child(3) {
+  color: #4A4A4A;
+}
+
+/* line 5, ../sass/_color.scss */
+.orange-1, .button-1, #index-page .upperfold .text-holder form.submit-email button {
+  background-color: #FFAC33;
+}
+
+/* line 9, ../sass/_color.scss */
+.purple-1, #dashboard-page .content-holder .main-window .gs-intro .account-text p:first-child {
+  color: #615478;
+}
+
+/* line 5, ../sass/_elements.scss */
+.error-msg {
+  display: block !important;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 12px;
+  background-color: #F5DCDF;
+  border-radius: 2px;
+  color: #A34652;
+}
+/* line 14, ../sass/_elements.scss */
+.error-msg p a {
+  text-decoration: none;
+}
+
+/* line 20, ../sass/_elements.scss */
+.dashboard-errormsg {
+  color: #A34652;
+  font-family: "Font-1";
+  font-size: 12px;
+}
+
+/* line 26, ../sass/_elements.scss */
+input.invalid {
+  border: 2px solid #E24357 !important;
+}
+
+/* line 31, ../sass/_elements.scss */
+.weak {
+  background: url("../images/icons/password-weak.svg") no-repeat;
+  color: #C44454;
+}
+
+/* line 35, ../sass/_elements.scss */
+.fair {
+  background: url("../images/icons/password-fair.svg") no-repeat;
+  color: #6AD7D8;
+}
+
+/* line 39, ../sass/_elements.scss */
+.good {
+  background: url("../images/icons/password-good.svg") no-repeat;
+  color: #F49F22;
+}
+
+/* line 43, ../sass/_elements.scss */
+.strong {
+  background: url("../images/icons/password-strong.svg") no-repeat;
+  color: #7ED321;
+}
+
+/* line 49, ../sass/_elements.scss */
+.success-msg {
+  border: 1px solid #E4C597;
+  border-radius: 2px;
+  background-color: #FFF6EA;
+  color: #4A4A4A;
+  font-size: 12px;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 10px !important;
+}
+
+/* line 61, ../sass/_elements.scss */
+.upperfold {
+  height: 100vh;
+  width: 100%;
+}
+
+/* line 67, ../sass/_elements.scss */
+.header {
+  background-color: rgba(50, 42, 63, 0.5);
+  height: 20px;
+}
+/* line 71, ../sass/_elements.scss */
+.header .header-logo {
+  background: url("../images/svg/voyagerapi_logomain.svg") no-repeat;
+  height: 26px;
+  width: 180px;
+}
+/* line 77, ../sass/_elements.scss */
+.header .nav-menu {
+  position: relative;
+  float: right;
+}
+/* line 82, ../sass/_elements.scss */
+.header .nav-buttons {
+  position: relative;
+  top: -10px;
+}
+/* line 87, ../sass/_elements.scss */
+.header .nav-buttons .button-1, .header .nav-buttons #index-page .upperfold .text-holder form.submit-email button, #index-page .upperfold .text-holder form.submit-email .header .nav-buttons button {
+  height: 40px;
+  width: 100px;
+  border: 2px solid #DDDDDD;
+  border-radius: 1px;
+  background-color: transparent;
+  color: #fff;
+  margin-right: 10px;
+}
+/* line 97, ../sass/_elements.scss */
+.header .nav-buttons .button-2 {
+  height: 40px;
+  width: 100px;
+  border-radius: 1px;
+  background-color: #FFAC33;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.01);
+  border: none;
+  color: #fff;
+}
+/* line 109, ../sass/_elements.scss */
+.header .docs, .header .help {
+  width: 50px;
+  padding-left: 25px;
+}
+/* line 115, ../sass/_elements.scss */
+.header .docs {
+  background: url("../images/icons/icon_docs.svg") no-repeat;
+}
+/* line 119, ../sass/_elements.scss */
+.header .help {
+  background: url("../images/icons/icon_help.svg") no-repeat;
+}
+/* line 123, ../sass/_elements.scss */
+.header .credits {
+  width: 200px;
+  padding-left: 10px;
+}
+/* line 127, ../sass/_elements.scss */
+.header .credits .balance {
+  border-left: 1px solid #fff;
+  padding-left: 20px;
+  width: 70px;
+  margin-right: 20px;
+  border-right: 1px solid #fff;
+}
+/* line 135, ../sass/_elements.scss */
+.header .credits .balance p:first-child {
+  color: #FFAC33;
+  font-size: 8px;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+/* line 141, ../sass/_elements.scss */
+.header .credits .balance p:nth-child(2) {
+  color: #fff;
+  margin: 0px;
+  font-size: 12px;
+}
+/* line 149, ../sass/_elements.scss */
+.header .credits .account p:first-child {
+  color: #FFAC33;
+  font-size: 8px;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+/* line 155, ../sass/_elements.scss */
+.header .credits .account p:nth-child(2) {
+  color: #fff;
+  margin: 0px;
+  font-size: 12px;
+}
+
+/* line 169, ../sass/_elements.scss */
+.footer {
+  padding: 25px 50px;
+  height: 15px;
+}
+/* line 173, ../sass/_elements.scss */
+.footer ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+/* line 179, ../sass/_elements.scss */
+.footer ul li {
+  margin-right: 30px;
+}
+/* line 182, ../sass/_elements.scss */
+.footer ul li a {
+  color: #BBBBBB;
+  font-size: 12px;
+  text-decoration: none;
+}
+/* line 187, ../sass/_elements.scss */
+.footer ul li a:hover {
+  color: #46C9CB;
+}
+/* line 193, ../sass/_elements.scss */
+.footer div:nth-child(2) {
+  position: relative;
+  float: right;
+  color: #BBBBBB;
+  font-size: 12px;
+}
+
+/* line 203, ../sass/_elements.scss */
+::-webkit-input-placeholder {
+  color: #7D7D7D;
+}
+
+/* line 206, ../sass/_elements.scss */
+::-moz-placeholder {
+  color: #7D7D7D;
+}
+
+/* line 209, ../sass/_elements.scss */
+:-ms-input-placeholder {
+  color: #7D7D7D;
+}
+
+/* line 212, ../sass/_elements.scss */
+:-moz-placeholder {
+  color: #7D7D7D;
+}
+
+/* line 217, ../sass/_elements.scss */
+.form-bg {
+  width: 350px;
+  background-color: #fff;
+  height: auto;
+  border-radius: 2px;
+  border-bottom: 4px solid #ffac33;
+  padding: 60px 90px;
+  position: relative;
+  margin-top: 80px;
+  left: 100px;
+}
+/* line 229, ../sass/_elements.scss */
+.form-bg .form-holder {
+  width: 355px;
+  margin: auto;
+}
+/* line 233, ../sass/_elements.scss */
+.form-bg .form-holder div {
+  position: relative;
+}
+/* line 237, ../sass/_elements.scss */
+.form-bg .form-holder .pw-toggle {
+  display: block;
+  font-size: 10px;
+  color: #7d7d7d;
+  /* font-weight: 600; */
+  position: absolute;
+  right: 10px;
+  top: 37px;
+  cursor: pointer;
+}
+/* line 248, ../sass/_elements.scss */
+.form-bg .form-holder label {
+  font-size: 10px;
+  font-family: 'Font-1';
+  color: #7d7d7d;
+  font-weight: 600;
+}
+/* line 255, ../sass/_elements.scss */
+.form-bg .form-holder p {
+  margin: 0px;
+}
+/* line 259, ../sass/_elements.scss */
+.form-bg .form-holder p.text1 {
+  font-family: 'Font-2';
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+/* line 265, ../sass/_elements.scss */
+.form-bg .form-holder p.text2 {
+  font-family: 'Font-1';
+  font-size: 16px;
+  margin-bottom: 25px;
+  font-weight: 300;
+  -webkit-font-smoothing: "antialiased";
+}
+/* line 274, ../sass/_elements.scss */
+.form-bg .form-holder input:focus {
+  outline: none;
+  border: 2px solid #615478;
+  border-radius: 1px;
+  transition: border-color 1s ease;
+}
+/* line 281, ../sass/_elements.scss */
+.form-bg .form-holder input {
+  height: 35px;
+  border: 1px solid #D6D6D6;
+  border-radius: 1px;
+  background-color: #FFFFFF;
+  margin-bottom: 10px;
+  text-indent: 10px;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 5px;
+}
+/* line 292, ../sass/_elements.scss */
+.form-bg .form-holder input.email {
+  width: 100%;
+}
+/* line 296, ../sass/_elements.scss */
+.form-bg .form-holder input.input-right {
+  float: right;
+  right: -4px;
+  position: relative;
+}
+/* line 302, ../sass/_elements.scss */
+.form-bg .form-holder button[type="submit"] {
+  width: 358px;
+  padding: 10px;
+  margin-top: 35px;
+}
+/* line 308, ../sass/_elements.scss */
+.form-bg .form-holder p.link {
+  margin-top: 60px;
+  font-size: 12px;
+  font-family: 'Font-1';
+}
+/* line 314, ../sass/_elements.scss */
+.form-bg .form-holder p.link a {
+  font-size: 12px;
+  font-family: 'Font-1';
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 323, ../sass/_elements.scss */
+.form-bg .form-holder a.link-2 {
+  margin-top: -70px;
+  font-family: 'Font-1';
+  color: #46C9CB;
+  font-size: 10px;
+  font-weight: 600;
+  text-decoration: underline;
+  position: absolute;
+  right: 0px;
+  /*top: 157px;*/
+  cursor: pointer;
+}
+
+/* line 339, ../sass/_elements.scss */
+button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+/* line 344, ../sass/_elements.scss */
+.button-1, #index-page .upperfold .text-holder form.submit-email button {
+  border-radius: 1px;
+  color: #fff;
+  border: none;
+}
+
+/* line 351, ../sass/_elements.scss */
+.button-blue {
+  background-color: #46C9CB;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 1px;
+  margin-right: 10px;
+  font-family: 'Font-1';
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* line 363, ../sass/_elements.scss */
+.disable-button {
+  background-color: #DDDDDD !important;
+}
+
+/* line 5, ../sass/_common.scss */
+.padding-1 {
+  padding: 20px 50px;
+}
+
+/* line 9, ../sass/_common.scss */
+.clear {
+  float: none;
+  clear: both;
+}
+
+/* line 15, ../sass/_common.scss */
+.left {
+  float: left;
+}
+
+/* line 18, ../sass/_common.scss */
+.right {
+  float: right;
+}
+
+/* line 23, ../sass/_common.scss */
+.font-1, .header .nav-buttons, .header .docs, .header .help {
+  font-family: 'font-1';
+  font-size: 12px;
+  color: #ffffff;
+}
+
+/* line 28, ../sass/_common.scss */
+.font-2, .onboarding-signup .error-msg, .onboarding-expiredlink .error-msg, .onboarding-login .error-msg, .forgot-password .error-msg {
+  font-family: 'font-1';
+  font-size: 12px;
+  color: #4a4a4a;
+}
+
+/* line 37, ../sass/_common.scss */
+input.invalid {
+  border: 2px solid #E24357 !important;
+}
+
+/* line 42, ../sass/_common.scss */
+.modal {
+  display: none;
+  background-color: rgba(74, 74, 74, 0.4);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+}
+/* line 51, ../sass/_common.scss */
+.modal .modal-1 {
+  width: 560px;
+  background-color: #ffffff;
+  margin: auto;
+  position: relative;
+  top: 30vh;
+  padding: 35px 20px;
+  text-align: center;
+  border-bottom: 4px solid #FFAC33;
+}
+/* line 61, ../sass/_common.scss */
+.modal .modal-1 p:first-child {
+  font-family: 'Font-1';
+  font-size: 28px;
+  color: #4A4A4A;
+  margin: 0px;
+}
+/* line 68, ../sass/_common.scss */
+.modal .modal-1 p:nth-child(2) {
+  font-family: 'Font-2';
+  font-size: 36px;
+  color: #4a4a4a;
+}
+/* line 76, ../sass/_common.scss */
+.modal .modal-2 {
+  display: none;
+  width: 580px;
+  background-color: #ffffff;
+  margin: auto;
+  position: relative;
+  top: 30vh;
+  padding: 35px 20px;
+  text-align: center;
+  border-bottom: 4px solid #FFAC33;
+}
+/* line 87, ../sass/_common.scss */
+.modal .modal-2 p.text1 {
+  font-family: 'Font-1';
+  font-size: 28px;
+  color: #4A4A4A;
+  margin: 0px;
+}
+/* line 94, ../sass/_common.scss */
+.modal .modal-2 p:nth-child(2) {
+  color: #4A4A4A;
+  font-size: 14px;
+  font-family: 'Font-1';
+}
+/* line 100, ../sass/_common.scss */
+.modal .modal-2 .button-set button {
+  width: 200px;
+}
+/* line 104, ../sass/_common.scss */
+.modal .modal-2 .sc-form {
+  background-color: #FBFBFB;
+  padding: 40px 0px;
+  margin-bottom: 30px;
+  width: 510px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+/* line 112, ../sass/_common.scss */
+.modal .modal-2 .sc-form label {
+  font-family: 'Font-2';
+  font-size: 36px;
+  color: #4a4a4a;
+}
+/* line 117, ../sass/_common.scss */
+.modal .modal-2 .sc-form input {
+  border: 2px solid #615478;
+  height: 20px;
+  width: 270px;
+  padding: 10px;
+  font-size: 14px;
+  color: #4A4A4A;
+  position: relative;
+  margin: 0px;
+  top: -7px;
+  left: 10px;
+}
+/* line 130, ../sass/_common.scss */
+.modal .modal-2 .sc-form .unavailable-sc {
+  display: none;
+}
+/* line 136, ../sass/_common.scss */
+.modal .modal-2 .sc-form .unavailable-sc .sc-options {
+  width: 446px;
+  margin: auto;
+  border-top: 1px solid #dddddd;
+}
+/* line 141, ../sass/_common.scss */
+.modal .modal-2 .sc-form .unavailable-sc .sc-options ul {
+  padding: 0px;
+}
+/* line 144, ../sass/_common.scss */
+.modal .modal-2 .sc-form .unavailable-sc .sc-options ul li {
+  list-style: none;
+  height: 20px;
+  width: 100px;
+  border: 2px solid #DDDDDD;
+  padding: 10px 0px;
+  color: #BBBBBB;
+  font-family: "Font-1";
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* line 156, ../sass/_common.scss */
+.modal .modal-2 .sc-form .unavailable-sc .sc-options ul li:hover {
+  border: 2px solid #46C9CB;
+  color: #46C9CB;
+}
+/* line 160, ../sass/_common.scss */
+.modal .modal-2 .sc-form .unavailable-sc .sc-options ul li.left {
+  margin-right: 10px;
+}
+/* line 163, ../sass/_common.scss */
+.modal .modal-2 .sc-form .unavailable-sc .sc-options p.dashboard-errormsg {
+  text-align: left;
+  padding: 0px 32px;
+}
+
+/* line 1, ../sass/_color.scss */
+.gray-1, .error-msg p a, .form-bg .form-holder p.text1, .form-bg .form-holder p.text2, .form-bg .form-holder p.link, .form-bg .form-holder p.link a, #dashboard-page .content-holder .main-window .gs-intro .account-text p:nth-child(2), #dashboard-page .content-holder .main-window .gs-intro .account-text p:nth-child(3) {
+  color: #4A4A4A;
+}
+
+/* line 5, ../sass/_color.scss */
+.orange-1, .button-1, #index-page .upperfold .text-holder form.submit-email button {
+  background-color: #FFAC33;
+}
+
+/* line 9, ../sass/_color.scss */
+.purple-1, #dashboard-page .content-holder .main-window .gs-intro .account-text p:first-child {
+  color: #615478;
+}
+
+/* line 5, ../sass/_elements.scss */
+.error-msg {
+  display: block !important;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 12px;
+  background-color: #F5DCDF;
+  border-radius: 2px;
+  color: #A34652;
+}
+/* line 14, ../sass/_elements.scss */
+.error-msg p a {
+  text-decoration: none;
+}
+
+/* line 20, ../sass/_elements.scss */
+.dashboard-errormsg {
+  color: #A34652;
+  font-family: "Font-1";
+  font-size: 12px;
+}
+
+/* line 26, ../sass/_elements.scss */
+input.invalid {
+  border: 2px solid #E24357 !important;
+}
+
+/* line 31, ../sass/_elements.scss */
+.weak {
+  background: url("../images/icons/password-weak.svg") no-repeat;
+  color: #C44454;
+}
+
+/* line 35, ../sass/_elements.scss */
+.fair {
+  background: url("../images/icons/password-fair.svg") no-repeat;
+  color: #6AD7D8;
+}
+
+/* line 39, ../sass/_elements.scss */
+.good {
+  background: url("../images/icons/password-good.svg") no-repeat;
+  color: #F49F22;
+}
+
+/* line 43, ../sass/_elements.scss */
+.strong {
+  background: url("../images/icons/password-strong.svg") no-repeat;
+  color: #7ED321;
+}
+
+/* line 49, ../sass/_elements.scss */
+.success-msg {
+  border: 1px solid #E4C597;
+  border-radius: 2px;
+  background-color: #FFF6EA;
+  color: #4A4A4A;
+  font-size: 12px;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 10px !important;
+}
+
+/* line 61, ../sass/_elements.scss */
+.upperfold {
+  height: 100vh;
+  width: 100%;
+}
+
+/* line 67, ../sass/_elements.scss */
+.header {
+  background-color: rgba(50, 42, 63, 0.5);
+  height: 20px;
+}
+/* line 71, ../sass/_elements.scss */
+.header .header-logo {
+  background: url("../images/svg/voyagerapi_logomain.svg") no-repeat;
+  height: 26px;
+  width: 180px;
+}
+/* line 77, ../sass/_elements.scss */
+.header .nav-menu {
+  position: relative;
+  float: right;
+}
+/* line 82, ../sass/_elements.scss */
+.header .nav-buttons {
+  position: relative;
+  top: -10px;
+}
+/* line 87, ../sass/_elements.scss */
+.header .nav-buttons .button-1, .header .nav-buttons #index-page .upperfold .text-holder form.submit-email button, #index-page .upperfold .text-holder form.submit-email .header .nav-buttons button {
+  height: 40px;
+  width: 100px;
+  border: 2px solid #DDDDDD;
+  border-radius: 1px;
+  background-color: transparent;
+  color: #fff;
+  margin-right: 10px;
+}
+/* line 97, ../sass/_elements.scss */
+.header .nav-buttons .button-2 {
+  height: 40px;
+  width: 100px;
+  border-radius: 1px;
+  background-color: #FFAC33;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.01);
+  border: none;
+  color: #fff;
+}
+/* line 109, ../sass/_elements.scss */
+.header .docs, .header .help {
+  width: 50px;
+  padding-left: 25px;
+}
+/* line 115, ../sass/_elements.scss */
+.header .docs {
+  background: url("../images/icons/icon_docs.svg") no-repeat;
+}
+/* line 119, ../sass/_elements.scss */
+.header .help {
+  background: url("../images/icons/icon_help.svg") no-repeat;
+}
+/* line 123, ../sass/_elements.scss */
+.header .credits {
+  width: 200px;
+  padding-left: 10px;
+}
+/* line 127, ../sass/_elements.scss */
+.header .credits .balance {
+  border-left: 1px solid #fff;
+  padding-left: 20px;
+  width: 70px;
+  margin-right: 20px;
+  border-right: 1px solid #fff;
+}
+/* line 135, ../sass/_elements.scss */
+.header .credits .balance p:first-child {
+  color: #FFAC33;
+  font-size: 8px;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+/* line 141, ../sass/_elements.scss */
+.header .credits .balance p:nth-child(2) {
+  color: #fff;
+  margin: 0px;
+  font-size: 12px;
+}
+/* line 149, ../sass/_elements.scss */
+.header .credits .account p:first-child {
+  color: #FFAC33;
+  font-size: 8px;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+/* line 155, ../sass/_elements.scss */
+.header .credits .account p:nth-child(2) {
+  color: #fff;
+  margin: 0px;
+  font-size: 12px;
+}
+
+/* line 169, ../sass/_elements.scss */
+.footer {
+  padding: 25px 50px;
+  height: 15px;
+}
+/* line 173, ../sass/_elements.scss */
+.footer ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+/* line 179, ../sass/_elements.scss */
+.footer ul li {
+  margin-right: 30px;
+}
+/* line 182, ../sass/_elements.scss */
+.footer ul li a {
+  color: #BBBBBB;
+  font-size: 12px;
+  text-decoration: none;
+}
+/* line 187, ../sass/_elements.scss */
+.footer ul li a:hover {
+  color: #46C9CB;
+}
+/* line 193, ../sass/_elements.scss */
+.footer div:nth-child(2) {
+  position: relative;
+  float: right;
+  color: #BBBBBB;
+  font-size: 12px;
+}
+
+/* line 203, ../sass/_elements.scss */
+::-webkit-input-placeholder {
+  color: #7D7D7D;
+}
+
+/* line 206, ../sass/_elements.scss */
+::-moz-placeholder {
+  color: #7D7D7D;
+}
+
+/* line 209, ../sass/_elements.scss */
+:-ms-input-placeholder {
+  color: #7D7D7D;
+}
+
+/* line 212, ../sass/_elements.scss */
+:-moz-placeholder {
+  color: #7D7D7D;
+}
+
+/* line 217, ../sass/_elements.scss */
+.form-bg {
+  width: 350px;
+  background-color: #fff;
+  height: auto;
+  border-radius: 2px;
+  border-bottom: 4px solid #ffac33;
+  padding: 60px 90px;
+  position: relative;
+  margin-top: 80px;
+  left: 100px;
+}
+/* line 229, ../sass/_elements.scss */
+.form-bg .form-holder {
+  width: 355px;
+  margin: auto;
+}
+/* line 233, ../sass/_elements.scss */
+.form-bg .form-holder div {
+  position: relative;
+}
+/* line 237, ../sass/_elements.scss */
+.form-bg .form-holder .pw-toggle {
+  display: block;
+  font-size: 10px;
+  color: #7d7d7d;
+  /* font-weight: 600; */
+  position: absolute;
+  right: 10px;
+  top: 37px;
+  cursor: pointer;
+}
+/* line 248, ../sass/_elements.scss */
+.form-bg .form-holder label {
+  font-size: 10px;
+  font-family: 'Font-1';
+  color: #7d7d7d;
+  font-weight: 600;
+}
+/* line 255, ../sass/_elements.scss */
+.form-bg .form-holder p {
+  margin: 0px;
+}
+/* line 259, ../sass/_elements.scss */
+.form-bg .form-holder p.text1 {
+  font-family: 'Font-2';
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+/* line 265, ../sass/_elements.scss */
+.form-bg .form-holder p.text2 {
+  font-family: 'Font-1';
+  font-size: 16px;
+  margin-bottom: 25px;
+  font-weight: 300;
+  -webkit-font-smoothing: "antialiased";
+}
+/* line 274, ../sass/_elements.scss */
+.form-bg .form-holder input:focus {
+  outline: none;
+  border: 2px solid #615478;
+  border-radius: 1px;
+  transition: border-color 1s ease;
+}
+/* line 281, ../sass/_elements.scss */
+.form-bg .form-holder input {
+  height: 35px;
+  border: 1px solid #D6D6D6;
+  border-radius: 1px;
+  background-color: #FFFFFF;
+  margin-bottom: 10px;
+  text-indent: 10px;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 5px;
+}
+/* line 292, ../sass/_elements.scss */
+.form-bg .form-holder input.email {
+  width: 100%;
+}
+/* line 296, ../sass/_elements.scss */
+.form-bg .form-holder input.input-right {
+  float: right;
+  right: -4px;
+  position: relative;
+}
+/* line 302, ../sass/_elements.scss */
+.form-bg .form-holder button[type="submit"] {
+  width: 358px;
+  padding: 10px;
+  margin-top: 35px;
+}
+/* line 308, ../sass/_elements.scss */
+.form-bg .form-holder p.link {
+  margin-top: 60px;
+  font-size: 12px;
+  font-family: 'Font-1';
+}
+/* line 314, ../sass/_elements.scss */
+.form-bg .form-holder p.link a {
+  font-size: 12px;
+  font-family: 'Font-1';
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 323, ../sass/_elements.scss */
+.form-bg .form-holder a.link-2 {
+  margin-top: -70px;
+  font-family: 'Font-1';
+  color: #46C9CB;
+  font-size: 10px;
+  font-weight: 600;
+  text-decoration: underline;
+  position: absolute;
+  right: 0px;
+  /*top: 157px;*/
+  cursor: pointer;
+}
+
+/* line 339, ../sass/_elements.scss */
+button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+/* line 344, ../sass/_elements.scss */
+.button-1, #index-page .upperfold .text-holder form.submit-email button {
+  border-radius: 1px;
+  color: #fff;
+  border: none;
+}
+
+/* line 351, ../sass/_elements.scss */
+.button-blue {
+  background-color: #46C9CB;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 1px;
+  margin-right: 10px;
+  font-family: 'Font-1';
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* line 363, ../sass/_elements.scss */
+.disable-button {
+  background-color: #DDDDDD !important;
+}
+
+/* line 1, ../sass/_color.scss */
+.gray-1, .error-msg p a, .form-bg .form-holder p.text1, .form-bg .form-holder p.text2, .form-bg .form-holder p.link, .form-bg .form-holder p.link a, #dashboard-page .content-holder .main-window .gs-intro .account-text p:nth-child(2), #dashboard-page .content-holder .main-window .gs-intro .account-text p:nth-child(3) {
+  color: #4A4A4A;
+}
+
+/* line 5, ../sass/_color.scss */
+.orange-1, .button-1, #index-page .upperfold .text-holder form.submit-email button {
+  background-color: #FFAC33;
+}
+
+/* line 9, ../sass/_color.scss */
+.purple-1, #dashboard-page .content-holder .main-window .gs-intro .account-text p:first-child {
+  color: #615478;
+}
+
+/* line 1, ../sass/_color.scss */
+.gray-1, .error-msg p a, .form-bg .form-holder p.text1, .form-bg .form-holder p.text2, .form-bg .form-holder p.link, .form-bg .form-holder p.link a, #dashboard-page .content-holder .main-window .gs-intro .account-text p:nth-child(2), #dashboard-page .content-holder .main-window .gs-intro .account-text p:nth-child(3) {
+  color: #4A4A4A;
+}
+
+/* line 5, ../sass/_color.scss */
+.orange-1, .button-1, #index-page .upperfold .text-holder form.submit-email button {
+  background-color: #FFAC33;
+}
+
+/* line 9, ../sass/_color.scss */
+.purple-1, #dashboard-page .content-holder .main-window .gs-intro .account-text p:first-child {
+  color: #615478;
+}
+
+/* line 5, ../sass/_elements.scss */
+.error-msg {
+  display: block !important;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 12px;
+  background-color: #F5DCDF;
+  border-radius: 2px;
+  color: #A34652;
+}
+/* line 14, ../sass/_elements.scss */
+.error-msg p a {
+  text-decoration: none;
+}
+
+/* line 20, ../sass/_elements.scss */
+.dashboard-errormsg {
+  color: #A34652;
+  font-family: "Font-1";
+  font-size: 12px;
+}
+
+/* line 26, ../sass/_elements.scss */
+input.invalid {
+  border: 2px solid #E24357 !important;
+}
+
+/* line 31, ../sass/_elements.scss */
+.weak {
+  background: url("../images/icons/password-weak.svg") no-repeat;
+  color: #C44454;
+}
+
+/* line 35, ../sass/_elements.scss */
+.fair {
+  background: url("../images/icons/password-fair.svg") no-repeat;
+  color: #6AD7D8;
+}
+
+/* line 39, ../sass/_elements.scss */
+.good {
+  background: url("../images/icons/password-good.svg") no-repeat;
+  color: #F49F22;
+}
+
+/* line 43, ../sass/_elements.scss */
+.strong {
+  background: url("../images/icons/password-strong.svg") no-repeat;
+  color: #7ED321;
+}
+
+/* line 49, ../sass/_elements.scss */
+.success-msg {
+  border: 1px solid #E4C597;
+  border-radius: 2px;
+  background-color: #FFF6EA;
+  color: #4A4A4A;
+  font-size: 12px;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 10px !important;
+}
+
+/* line 61, ../sass/_elements.scss */
+.upperfold {
+  height: 100vh;
+  width: 100%;
+}
+
+/* line 67, ../sass/_elements.scss */
+.header {
+  background-color: rgba(50, 42, 63, 0.5);
+  height: 20px;
+}
+/* line 71, ../sass/_elements.scss */
+.header .header-logo {
+  background: url("../images/svg/voyagerapi_logomain.svg") no-repeat;
+  height: 26px;
+  width: 180px;
+}
+/* line 77, ../sass/_elements.scss */
+.header .nav-menu {
+  position: relative;
+  float: right;
+}
+/* line 82, ../sass/_elements.scss */
+.header .nav-buttons {
+  position: relative;
+  top: -10px;
+}
+/* line 87, ../sass/_elements.scss */
+.header .nav-buttons .button-1, .header .nav-buttons #index-page .upperfold .text-holder form.submit-email button, #index-page .upperfold .text-holder form.submit-email .header .nav-buttons button {
+  height: 40px;
+  width: 100px;
+  border: 2px solid #DDDDDD;
+  border-radius: 1px;
+  background-color: transparent;
+  color: #fff;
+  margin-right: 10px;
+}
+/* line 97, ../sass/_elements.scss */
+.header .nav-buttons .button-2 {
+  height: 40px;
+  width: 100px;
+  border-radius: 1px;
+  background-color: #FFAC33;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.01);
+  border: none;
+  color: #fff;
+}
+/* line 109, ../sass/_elements.scss */
+.header .docs, .header .help {
+  width: 50px;
+  padding-left: 25px;
+}
+/* line 115, ../sass/_elements.scss */
+.header .docs {
+  background: url("../images/icons/icon_docs.svg") no-repeat;
+}
+/* line 119, ../sass/_elements.scss */
+.header .help {
+  background: url("../images/icons/icon_help.svg") no-repeat;
+}
+/* line 123, ../sass/_elements.scss */
+.header .credits {
+  width: 200px;
+  padding-left: 10px;
+}
+/* line 127, ../sass/_elements.scss */
+.header .credits .balance {
+  border-left: 1px solid #fff;
+  padding-left: 20px;
+  width: 70px;
+  margin-right: 20px;
+  border-right: 1px solid #fff;
+}
+/* line 135, ../sass/_elements.scss */
+.header .credits .balance p:first-child {
+  color: #FFAC33;
+  font-size: 8px;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+/* line 141, ../sass/_elements.scss */
+.header .credits .balance p:nth-child(2) {
+  color: #fff;
+  margin: 0px;
+  font-size: 12px;
+}
+/* line 149, ../sass/_elements.scss */
+.header .credits .account p:first-child {
+  color: #FFAC33;
+  font-size: 8px;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+/* line 155, ../sass/_elements.scss */
+.header .credits .account p:nth-child(2) {
+  color: #fff;
+  margin: 0px;
+  font-size: 12px;
+}
+
+/* line 169, ../sass/_elements.scss */
+.footer {
+  padding: 25px 50px;
+  height: 15px;
+}
+/* line 173, ../sass/_elements.scss */
+.footer ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+/* line 179, ../sass/_elements.scss */
+.footer ul li {
+  margin-right: 30px;
+}
+/* line 182, ../sass/_elements.scss */
+.footer ul li a {
+  color: #BBBBBB;
+  font-size: 12px;
+  text-decoration: none;
+}
+/* line 187, ../sass/_elements.scss */
+.footer ul li a:hover {
+  color: #46C9CB;
+}
+/* line 193, ../sass/_elements.scss */
+.footer div:nth-child(2) {
+  position: relative;
+  float: right;
+  color: #BBBBBB;
+  font-size: 12px;
+}
+
+/* line 203, ../sass/_elements.scss */
+::-webkit-input-placeholder {
+  color: #7D7D7D;
+}
+
+/* line 206, ../sass/_elements.scss */
+::-moz-placeholder {
+  color: #7D7D7D;
+}
+
+/* line 209, ../sass/_elements.scss */
+:-ms-input-placeholder {
+  color: #7D7D7D;
+}
+
+/* line 212, ../sass/_elements.scss */
+:-moz-placeholder {
+  color: #7D7D7D;
+}
+
+/* line 217, ../sass/_elements.scss */
+.form-bg {
+  width: 350px;
+  background-color: #fff;
+  height: auto;
+  border-radius: 2px;
+  border-bottom: 4px solid #ffac33;
+  padding: 60px 90px;
+  position: relative;
+  margin-top: 80px;
+  left: 100px;
+}
+/* line 229, ../sass/_elements.scss */
+.form-bg .form-holder {
+  width: 355px;
+  margin: auto;
+}
+/* line 233, ../sass/_elements.scss */
+.form-bg .form-holder div {
+  position: relative;
+}
+/* line 237, ../sass/_elements.scss */
+.form-bg .form-holder .pw-toggle {
+  display: block;
+  font-size: 10px;
+  color: #7d7d7d;
+  /* font-weight: 600; */
+  position: absolute;
+  right: 10px;
+  top: 37px;
+  cursor: pointer;
+}
+/* line 248, ../sass/_elements.scss */
+.form-bg .form-holder label {
+  font-size: 10px;
+  font-family: 'Font-1';
+  color: #7d7d7d;
+  font-weight: 600;
+}
+/* line 255, ../sass/_elements.scss */
+.form-bg .form-holder p {
+  margin: 0px;
+}
+/* line 259, ../sass/_elements.scss */
+.form-bg .form-holder p.text1 {
+  font-family: 'Font-2';
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+/* line 265, ../sass/_elements.scss */
+.form-bg .form-holder p.text2 {
+  font-family: 'Font-1';
+  font-size: 16px;
+  margin-bottom: 25px;
+  font-weight: 300;
+  -webkit-font-smoothing: "antialiased";
+}
+/* line 274, ../sass/_elements.scss */
+.form-bg .form-holder input:focus {
+  outline: none;
+  border: 2px solid #615478;
+  border-radius: 1px;
+  transition: border-color 1s ease;
+}
+/* line 281, ../sass/_elements.scss */
+.form-bg .form-holder input {
+  height: 35px;
+  border: 1px solid #D6D6D6;
+  border-radius: 1px;
+  background-color: #FFFFFF;
+  margin-bottom: 10px;
+  text-indent: 10px;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 5px;
+}
+/* line 292, ../sass/_elements.scss */
+.form-bg .form-holder input.email {
+  width: 100%;
+}
+/* line 296, ../sass/_elements.scss */
+.form-bg .form-holder input.input-right {
+  float: right;
+  right: -4px;
+  position: relative;
+}
+/* line 302, ../sass/_elements.scss */
+.form-bg .form-holder button[type="submit"] {
+  width: 358px;
+  padding: 10px;
+  margin-top: 35px;
+}
+/* line 308, ../sass/_elements.scss */
+.form-bg .form-holder p.link {
+  margin-top: 60px;
+  font-size: 12px;
+  font-family: 'Font-1';
+}
+/* line 314, ../sass/_elements.scss */
+.form-bg .form-holder p.link a {
+  font-size: 12px;
+  font-family: 'Font-1';
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 323, ../sass/_elements.scss */
+.form-bg .form-holder a.link-2 {
+  margin-top: -70px;
+  font-family: 'Font-1';
+  color: #46C9CB;
+  font-size: 10px;
+  font-weight: 600;
+  text-decoration: underline;
+  position: absolute;
+  right: 0px;
+  /*top: 157px;*/
+  cursor: pointer;
+}
+
+/* line 339, ../sass/_elements.scss */
+button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+/* line 344, ../sass/_elements.scss */
+.button-1, #index-page .upperfold .text-holder form.submit-email button {
+  border-radius: 1px;
+  color: #fff;
+  border: none;
+}
+
+/* line 351, ../sass/_elements.scss */
+.button-blue {
+  background-color: #46C9CB;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 1px;
+  margin-right: 10px;
+  font-family: 'Font-1';
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* line 363, ../sass/_elements.scss */
+.disable-button {
+  background-color: #DDDDDD !important;
+}
+
+/* line 5, ../sass/_common.scss */
+.padding-1 {
+  padding: 20px 50px;
+}
+
+/* line 9, ../sass/_common.scss */
+.clear {
+  float: none;
+  clear: both;
+}
+
+/* line 15, ../sass/_common.scss */
+.left {
+  float: left;
+}
+
+/* line 18, ../sass/_common.scss */
+.right {
+  float: right;
+}
+
+/* line 23, ../sass/_common.scss */
+.font-1, .header .nav-buttons, .header .docs, .header .help {
+  font-family: 'font-1';
+  font-size: 12px;
+  color: #ffffff;
+}
+
+/* line 28, ../sass/_common.scss */
+.font-2, .onboarding-signup .error-msg, .onboarding-expiredlink .error-msg, .onboarding-login .error-msg, .forgot-password .error-msg {
+  font-family: 'font-1';
+  font-size: 12px;
+  color: #4a4a4a;
+}
+
+/* line 37, ../sass/_common.scss */
+input.invalid {
+  border: 2px solid #E24357 !important;
+}
+
+/* line 42, ../sass/_common.scss */
+.modal {
+  display: none;
+  background-color: rgba(74, 74, 74, 0.4);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+}
+/* line 51, ../sass/_common.scss */
+.modal .modal-1 {
+  width: 560px;
+  background-color: #ffffff;
+  margin: auto;
+  position: relative;
+  top: 30vh;
+  padding: 35px 20px;
+  text-align: center;
+  border-bottom: 4px solid #FFAC33;
+}
+/* line 61, ../sass/_common.scss */
+.modal .modal-1 p:first-child {
+  font-family: 'Font-1';
+  font-size: 28px;
+  color: #4A4A4A;
+  margin: 0px;
+}
+/* line 68, ../sass/_common.scss */
+.modal .modal-1 p:nth-child(2) {
+  font-family: 'Font-2';
+  font-size: 36px;
+  color: #4a4a4a;
+}
+/* line 76, ../sass/_common.scss */
+.modal .modal-2 {
+  display: none;
+  width: 580px;
+  background-color: #ffffff;
+  margin: auto;
+  position: relative;
+  top: 30vh;
+  padding: 35px 20px;
+  text-align: center;
+  border-bottom: 4px solid #FFAC33;
+}
+/* line 87, ../sass/_common.scss */
+.modal .modal-2 p.text1 {
+  font-family: 'Font-1';
+  font-size: 28px;
+  color: #4A4A4A;
+  margin: 0px;
+}
+/* line 94, ../sass/_common.scss */
+.modal .modal-2 p:nth-child(2) {
+  color: #4A4A4A;
+  font-size: 14px;
+  font-family: 'Font-1';
+}
+/* line 100, ../sass/_common.scss */
+.modal .modal-2 .button-set button {
+  width: 200px;
+}
+/* line 104, ../sass/_common.scss */
+.modal .modal-2 .sc-form {
+  background-color: #FBFBFB;
+  padding: 40px 0px;
+  margin-bottom: 30px;
+  width: 510px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+/* line 112, ../sass/_common.scss */
+.modal .modal-2 .sc-form label {
+  font-family: 'Font-2';
+  font-size: 36px;
+  color: #4a4a4a;
+}
+/* line 117, ../sass/_common.scss */
+.modal .modal-2 .sc-form input {
+  border: 2px solid #615478;
+  height: 20px;
+  width: 270px;
+  padding: 10px;
+  font-size: 14px;
+  color: #4A4A4A;
+  position: relative;
+  margin: 0px;
+  top: -7px;
+  left: 10px;
+}
+/* line 130, ../sass/_common.scss */
+.modal .modal-2 .sc-form .unavailable-sc {
+  display: none;
+}
+/* line 136, ../sass/_common.scss */
+.modal .modal-2 .sc-form .unavailable-sc .sc-options {
+  width: 446px;
+  margin: auto;
+  border-top: 1px solid #dddddd;
+}
+/* line 141, ../sass/_common.scss */
+.modal .modal-2 .sc-form .unavailable-sc .sc-options ul {
+  padding: 0px;
+}
+/* line 144, ../sass/_common.scss */
+.modal .modal-2 .sc-form .unavailable-sc .sc-options ul li {
+  list-style: none;
+  height: 20px;
+  width: 100px;
+  border: 2px solid #DDDDDD;
+  padding: 10px 0px;
+  color: #BBBBBB;
+  font-family: "Font-1";
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* line 156, ../sass/_common.scss */
+.modal .modal-2 .sc-form .unavailable-sc .sc-options ul li:hover {
+  border: 2px solid #46C9CB;
+  color: #46C9CB;
+}
+/* line 160, ../sass/_common.scss */
+.modal .modal-2 .sc-form .unavailable-sc .sc-options ul li.left {
+  margin-right: 10px;
+}
+/* line 163, ../sass/_common.scss */
+.modal .modal-2 .sc-form .unavailable-sc .sc-options p.dashboard-errormsg {
+  text-align: left;
+  padding: 0px 32px;
+}
+
+@font-face {
+  font-family: "Font-1";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Font-2";
+  src: url("../fonts/Gotham-Light.ttf");
+}
+
+@font-face {
+  font-family: "Font-3";
+  src: url("../fonts/Gotham Medium.ttf");
+}
+
+@font-face {
+  font-family: "Font-4";
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+/* line 1, ../sass/_color.scss */
+.gray-1, .error-msg p a, .form-bg .form-holder p.text1, .form-bg .form-holder p.text2, .form-bg .form-holder p.link, .form-bg .form-holder p.link a, #dashboard-page .content-holder .main-window .gs-intro .account-text p:nth-child(2), #dashboard-page .content-holder .main-window .gs-intro .account-text p:nth-child(3) {
+  color: #4A4A4A;
+}
+
+/* line 5, ../sass/_color.scss */
+.orange-1, .button-1, #index-page .upperfold .text-holder form.submit-email button {
+  background-color: #FFAC33;
+}
+
+/* line 9, ../sass/_color.scss */
+.purple-1, #dashboard-page .content-holder .main-window .gs-intro .account-text p:first-child {
+  color: #615478;
+}
+
+/* line 6, ../sass/_style.scss */
+#index-page .upperfold {
+  background: url("../images/heroimage/voyagerapi_heroimage.jpg") no-repeat;
+  background-size: cover;
+}
+/* line 10, ../sass/_style.scss */
+#index-page .upperfold .text-holder {
+  text-align: center;
+  width: 635px;
+  margin: auto;
+  position: relative;
+  top: 27vh;
+}
+/* line 17, ../sass/_style.scss */
+#index-page .upperfold .text-holder p:first-child {
+  font-family: 'Font-3';
+  color: #fff;
+  font-size: 72px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+/* line 25, ../sass/_style.scss */
+#index-page .upperfold .text-holder p:nth-child(2) {
+  font-family: 'Font-2';
+  color: #D6D6D6;
+  font-size: 20px;
+  line-height: 24px;
+  width: 550px;
+  margin: auto;
+  margin-bottom: 42px;
+}
+/* line 35, ../sass/_style.scss */
+#index-page .upperfold .text-holder .success_login {
+  display: block;
+}
+/* line 38, ../sass/_style.scss */
+#index-page .upperfold .text-holder .success_login p {
+  font-family: 'Font-1';
+  font-size: 16px;
+  color: #F8F6FA;
+  margin-bottom: 20px;
+}
+/* line 44, ../sass/_style.scss */
+#index-page .upperfold .text-holder .success_login p span {
+  font-weight: bold;
+}
+/* line 50, ../sass/_style.scss */
+#index-page .upperfold .text-holder .success_login .button-1, #index-page .upperfold .text-holder .success_login form.submit-email button, #index-page .upperfold .text-holder form.submit-email .success_login button {
+  padding: 10px 20px;
+}
+/* line 57, ../sass/_style.scss */
+#index-page .upperfold .text-holder form.submit-email input {
+  height: 36px;
+  width: 350px;
+  padding: 0px 10px;
+  color: #4A4A4A;
+  font-size: 14px;
+  font-family: 'Font-1';
+  border: 1px solid #D6D6D6;
+  border-radius: 1px;
+}
+/* line 67, ../sass/_style.scss */
+#index-page .upperfold .text-holder form.submit-email input:focus {
+  outline: none;
+  border: 2px solid #615478;
+  border-radius: 1px;
+  transition: border-color 1s ease;
+}
+/* line 73, ../sass/_style.scss */
+#index-page .upperfold .text-holder form.submit-email button {
+  height: 39px;
+  width: 200px;
+}
+/* line 78, ../sass/_style.scss */
+#index-page .upperfold .text-holder form.submit-email p.error-msg {
+  margin: 10px 29px;
+  height: 14px;
+  width: 343px;
+}
+
+/* line 87, ../sass/_style.scss */
+.home-section {
+  background-color: #282134;
+  height: 380px;
+  position: relative;
+  padding: 20px 10px;
+}
+/* line 93, ../sass/_style.scss */
+.home-section div.side-1 {
+  width: 50%;
+  float: left;
+}
+/* line 97, ../sass/_style.scss */
+.home-section div.side-2 {
+  width: 50%;
+}
+/* line 101, ../sass/_style.scss */
+.home-section .icon-1 {
+  background: url("../images/icons/voyager_icon1.svg") no-repeat;
+  width: 90px;
+  background-position: center center;
+  margin: auto;
+}
+/* line 102, ../sass/_style.scss */
+.home-section .icon-2 {
+  background: url("../images/icons/voyager_icon2.svg") no-repeat;
+  width: 90px;
+  background-position: center center;
+  margin: auto;
+}
+/* line 103, ../sass/_style.scss */
+.home-section .icon-3 {
+  background: url("../images/icons/voyager_icon3.svg") no-repeat;
+  width: 90px;
+  background-position: center center;
+  margin: auto;
+}
+/* line 104, ../sass/_style.scss */
+.home-section .icon-4 {
+  background: url("../images/icons/voyager_icon4.svg") no-repeat;
+  width: 90px;
+  background-position: center center;
+  margin: auto;
+}
+/* line 106, ../sass/_style.scss */
+.home-section .mid-line {
+  background-color: #393343;
+  width: 1px;
+  height: 320px;
+  position: absolute;
+  left: 50%;
+}
+/* line 115, ../sass/_style.scss */
+.home-section div.side-1 p:first-child, .home-section div.side1 p:first-child {
+  text-align: center;
+  color: #9B9B9B;
+  font-family: "Font-1";
+  font-size: 12px;
+  letter-spacing: 6px;
+}
+/* line 122, ../sass/_style.scss */
+.home-section div.side-1 p.line, .home-section div.side1 p.line {
+  width: 120px;
+  margin: auto;
+  height: 2px;
+  background-color: #E4C597;
+}
+/* line 128, ../sass/_style.scss */
+.home-section div.side-1 .side-block, .home-section div.side1 .side-block {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 0px 0px;
+  margin-top: 30px;
+}
+/* line 135, ../sass/_style.scss */
+.home-section div.side-1 .side-block div:first-child, .home-section div.side1 .side-block div:first-child {
+  height: 130px;
+}
+/* line 139, ../sass/_style.scss */
+.home-section div.side-1 .side-block p, .home-section div.side1 .side-block p {
+  padding: 0px 50px;
+  color: #DDDDDD;
+  font-family: "Font-2";
+  font-size: 16px;
+}
+/* line 146, ../sass/_style.scss */
+.home-section div.side-1 .side-block a, .home-section div.side1 .side-block a {
+  color: #46C9CB;
+  font-family: "Font-1";
+  font-size: 14px;
+}
+
+/* line 159, ../sass/_style.scss */
+#signup-page .upperfold {
+  background: url("../images/heroimage/voyagerapi_onboadingimage.png") no-repeat;
+  background-size: cover;
+  height: 950px;
+}
+
+/* line 165, ../sass/_style.scss */
+.onboarding-signup {
+  display: block;
+}
+/* line 168, ../sass/_style.scss */
+.onboarding-signup .fn-holder, .onboarding-signup .ln-holder {
+  width: 170px;
+  float: left;
+}
+/* line 172, ../sass/_style.scss */
+.onboarding-signup .fn-holder {
+  margin-right: 15px;
+}
+/* line 176, ../sass/_style.scss */
+.onboarding-signup .pw-text {
+  font-size: 10px;
+  color: #4d4d4d;
+  font-family: 'Font-1';
+}
+
+.field-text {
+  font-size: 10px;
+  color: #4d4d4d;
+  font-family: 'Font-1';
+}
+
+/* line 182, ../sass/_style.scss */
+.onboarding-signup .pw-error {
+  color: #C44454;
+  font-weight: 600;
+}
+
+.field-error {
+  color: #C44454;
+  font-weight: 600;
+  padding-bottom: 10px;
+  top: 268px;
+}
+
+/* line 187, ../sass/_style.scss */
+.onboarding-signup .pwmeter {
+  width: 50px;
+  height: auto;
+  position: absolute !important;
+  right: -62px;
+  top: 32px;
+  font-family: 'Font-1';
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: 10px;
+  text-transform: capitalize;
+}
+/* line 199, ../sass/_style.scss */
+.onboarding-signup .error-msg {
+  text-align: justify;
+  margin-bottom: 10px !important;
+}
+/* line 204, ../sass/_style.scss */
+.onboarding-signup .error-msg p {
+  margin-top: 10px;
+}
+
+/* line 211, ../sass/_style.scss */
+.onboarding-expiredlink {
+  display: none;
+}
+/* line 214, ../sass/_style.scss */
+.onboarding-expiredlink input[type="email"] {
+  border: 2px solid #615478;
+}
+/* line 218, ../sass/_style.scss */
+.onboarding-expiredlink .error-msg {
+  text-align: left;
+  margin-bottom: 10px !important;
+  color: #A34652;
+}
+/* line 224, ../sass/_style.scss */
+.onboarding-expiredlink .error-msg p {
+  margin-top: 10px;
+}
+/* line 227, ../sass/_style.scss */
+.onboarding-expiredlink .error-msg a {
+  color: #A34652;
+}
+
+/* line 234, ../sass/_style.scss */
+.onboarding-login {
+  display: block;
+}
+/* line 237, ../sass/_style.scss */
+.onboarding-login .error-msg {
+  text-align: justify;
+  margin-bottom: 10px !important;
+}
+/* line 244, ../sass/_style.scss */
+.onboarding-login form input[type="password"] {
+  width: 100%;
+}
+/* line 248, ../sass/_style.scss */
+.onboarding-login form button[type="submit"] {
+  width: 170px !important;
+}
+
+/* line 256, ../sass/_style.scss */
+.forgot-password {
+  display: none;
+}
+/* line 259, ../sass/_style.scss */
+.forgot-password .error-msg {
+  text-align: justify;
+  margin-bottom: 10px !important;
+}
+/* line 266, ../sass/_style.scss */
+.forgot-password form input[type="password"] {
+  width: 100%;
+}
+/* line 270, ../sass/_style.scss */
+.forgot-password form button[type="submit"] {
+  width: 170px !important;
+}
+
+/* line 281, ../sass/_style.scss */
+#dashboard-page .upperfold {
+  background: none;
+  height: auto;
+}
+/* line 285, ../sass/_style.scss */
+#dashboard-page .upperfold .header {
+  opacity: 1;
+  background-color: #322A3F;
+}
+/* line 289, ../sass/_style.scss */
+#dashboard-page .upperfold .header .nav-buttons {
+  display: none;
+}
+/* line 296, ../sass/_style.scss */
+#dashboard-page .content-holder {
+  height: 800px;
+  background-color: #FAFAFA;
+}
+/* line 300, ../sass/_style.scss */
+#dashboard-page .content-holder p {
+  margin: 0px;
+}
+/* line 304, ../sass/_style.scss */
+#dashboard-page .content-holder .images-tab {
+  width: 104px;
+  background-color: #EFEFEF;
+  height: 100%;
+  float: left;
+}
+/* line 310, ../sass/_style.scss */
+#dashboard-page .content-holder .images-tab .smsapi-icon {
+  background: url("../images/icons/api_icon_sms.svg") no-repeat;
+  height: 80px;
+  width: 98px;
+  background-position: center;
+  border: none;
+  border-left: 6px solid #615478;
+  background-color: whitesmoke;
+}
+/* line 322, ../sass/_style.scss */
+#dashboard-page .content-holder .text-tab {
+  background-color: #f5f5f5;
+  width: 200px;
+  height: 100%;
+  float: left;
+}
+/* line 328, ../sass/_style.scss */
+#dashboard-page .content-holder .text-tab .tabs {
+  padding: 33px 20px;
+}
+/* line 331, ../sass/_style.scss */
+#dashboard-page .content-holder .text-tab .tabs p.tab-title {
+  color: #615478;
+  font-family: "Font-1";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  line-height: 14px;
+}
+/* line 340, ../sass/_style.scss */
+#dashboard-page .content-holder .text-tab .tabs .line-2 {
+  height: 1px;
+  width: 100px;
+  background-color: #DDDDDD;
+  margin-top: 7px;
+}
+/* line 347, ../sass/_style.scss */
+#dashboard-page .content-holder .text-tab .tabs ul {
+  list-style: none;
+  padding: 0px;
+  padding-top: 15px;
+}
+/* line 352, ../sass/_style.scss */
+#dashboard-page .content-holder .text-tab .tabs ul li {
+  margin-bottom: 15px;
+}
+/* line 356, ../sass/_style.scss */
+#dashboard-page .content-holder .text-tab .tabs ul li a {
+  font-family: "Font-2";
+  font-size: 16px;
+  font-weight: 600;
+  color: #DDDDDD;
+  text-decoration: none;
+}
+/* line 364, ../sass/_style.scss */
+#dashboard-page .content-holder .text-tab .tabs ul li a.active {
+  color: #4A4A4A;
+  font-family: "Font-4";
+}
+/* line 377, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window {
+  float: left;
+  padding: 40px;
+}
+/* line 382, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs p.text1 {
+  color: #4A4A4A;
+  font-size: 36px;
+  font-family: 'Font-2';
+  margin-bottom: 15px;
+}
+/* line 392, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-intro .success-msg {
+  margin-bottom: 10px !important;
+}
+/* line 395, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-intro .close-icon {
+  background: url("../images/icons/icon_close.svg") no-repeat;
+  height: 30px;
+  width: 30px;
+  border: none;
+  box-shadow: none;
+  position: absolute;
+  right: 0px;
+  top: 12px;
+}
+/* line 405, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-intro .slider-front {
+  background-color: #322A3F;
+  height: 300px;
+  border-radius: 2px;
+  margin-bottom: 40px;
+  width: 700px;
+}
+/* line 412, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-intro .slider-front .gc-sec {
+  float: right;
+  width: 250px;
+  height: 100%;
+}
+/* line 417, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-intro .slider-front .gc-sec p:first-child {
+  color: #DDDDDD;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+  width: 180px;
+  margin-top: 31%;
+  position: relative;
+  font-family: 'Font-2';
+}
+/* line 427, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-intro .slider-front .gc-sec .button-1, #dashboard-page .content-holder .main-window .gs-intro .slider-front .gc-sec #index-page .upperfold .text-holder form.submit-email button, #index-page .upperfold .text-holder form.submit-email #dashboard-page .content-holder .main-window .gs-intro .slider-front .gc-sec button {
+  padding: 10px 30px;
+  position: relative;
+  margin-top: 60px;
+}
+/* line 437, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-intro .account-text p:first-child {
+  font-family: 'Font-1';
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/* line 444, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-intro .account-text p:nth-child(2) {
+  font-family: "Font-1";
+  font-size: 12px;
+  line-height: 24px;
+}
+/* line 447, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-intro .account-text p:nth-child(3) {
+  font-family: "Font-1";
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+/* line 450, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-intro .account-text a {
+  color: #46C9CB;
+  font-family: "Font-1";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+}
+/* line 461, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-screen1 {
+  display: none;
+}
+/* line 464, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-screen1 .div-1 {
+  width: 700px;
+  background-color: #FFFFFF;
+  border: 1px solid #F5F5F5;
+  border-radius: 3px;
+  padding: 20px;
+}
+/* line 471, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-screen1 .div-1 p:first-child {
+  font-size: 15px;
+  color: #615478;
+  font-family: 'Font-4';
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* line 478, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-screen1 .div-1 p:nth-child(2) {
+  font-size: 14px;
+  color: #4a4a4a;
+  font-family: 'Font-1';
+  margin-bottom: 30px;
+}
+/* line 484, ../sass/_style.scss */
+#dashboard-page .content-holder .main-window .gs-screen1 .div-1 div {
+  width: 224px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+@font-face {
+  font-family: "Font-1";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Font-2";
+  src: url("../fonts/Gotham-Light.ttf");
+}
+
+@font-face {
+  font-family: "Font-3";
+  src: url("../fonts/Gotham Medium.ttf");
+}
+
+@font-face {
+  font-family: "Font-4";
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+/* line 6, ../sass/main.scss */
+body, html {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 10, ../sass/main.scss */
+.container {
+  overflow: hidden;
+  width: 1280px;
+  margin: auto;
+}

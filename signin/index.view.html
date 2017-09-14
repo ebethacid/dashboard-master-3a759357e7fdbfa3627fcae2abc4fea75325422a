@@ -1,0 +1,50 @@
+<div class="container" id="signup-page">
+    <div class="upperfold">
+        <div top-menu
+            loc-data="locData" 
+            template-url="top-menu.html"
+        ></div><!-- End of Header -->
+
+        <div class="form-bg">
+            <div class="form-holder">
+                <!-- Onboarding Login -->
+                <div class="onboarding-login">
+                    <p class="text1"> Welcome back! </p>
+                    <p class="text2"> Sign in using your account </p>
+                    
+                    <form novalidate>
+                        <p ng-class="result.style"><span ng-repeat="msg in result.message track by $index">{{msg}}<br/><span></p>
+                        <label> Email Address </label>
+                        <input 
+                            type="text" 
+                            class="email" 
+                            ng-class="result.email.style" 
+                            ng-model="credentials.email"> 
+                        </input>
+                        <p class="field-text" ng-class="result.email.class">{{result.email.message}}</p>
+
+                        <label> Password </label>
+                        <input 
+                            type="password" 
+                            ng-class="result.password.style" 
+                            ng-model="credentials.password"> 
+                        </input>
+                        <p class="field-text" ng-class="result.password.class">{{result.password.message}}</p>
+
+                        <a class="link-2 field-text" ng-class="result.password.class"> Forgot Password? </a>
+                        <button class="button-1" type="submit" ng-click="signInUser()"> Login </button>
+                    </form>
+                    
+                    <p class="link"> Don't have an account? <a href="" ng-click="signUpUser()"> Sign up </a> </p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End of upperfold -->
+
+    <div class="clear"> </div>
+
+    <div footer 
+        template-url="footer.html">
+    </div>
+
+</div>
